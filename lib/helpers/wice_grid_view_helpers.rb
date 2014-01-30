@@ -659,7 +659,7 @@ module Wice
 
       js = ''
       html = if (num_pages < 2 && collection.length == 0)
-        '0'
+        grid.without_results_text + " "
       else
         parameters << ["#{grid.name}[pp]", collection_total_entries]
 
