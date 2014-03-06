@@ -1,7 +1,7 @@
 jQuery ->
-  initWiceGrid()
+  window["initWiceGrid"]()
 
-initWiceGrid = ->
+window["initWiceGrid"] = ->
 
   $(".wice-grid-container").each (index, wiceGridContainer) ->
 
